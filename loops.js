@@ -1,15 +1,11 @@
 function forLoop(array) {
   array = []
   for (let i = 0; i < 25; i++) {
-    array.push(
-    if (i = 0) {
+    if (i = 1) {
+    array.push('I am ${i} strange loop.')
     }
-    else if (i = 1) {
-      'I am 1 strange loop.'
-    }
-    else if (i > 1) {
-      'I am ${i} strange loops.'
+    if (i >1) {
+      array.push('I am ${i1} strange loops.')
     }
   }
-  return array
 }
