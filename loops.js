@@ -1,7 +1,7 @@
 function forLoop(array) {
   array = []
   for (let i = 0; i < 25; i++) {
-      array.push{
+      array.push( 
         if (i = 0) {
           return null
         }
@@ -11,6 +11,6 @@ function forLoop(array) {
         else if (i > 1) {
           return 'I am ${i} strange loops.'
         }
-      }
+      )
   }
 }
