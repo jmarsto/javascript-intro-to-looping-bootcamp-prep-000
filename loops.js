@@ -4,7 +4,7 @@ function forLoop(array) {
     if (i = 1) {
     array.push('I am ${i} strange loop.')
     }
-    if (i >1) {
+    if (i > 1) {
       array.push('I am ${i1} strange loops.')
     }
   }
